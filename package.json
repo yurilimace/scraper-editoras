@@ -1,0 +1,25 @@
+{
+  "name": "scraper-editoras",
+  "version": "1.0.0",
+  "description": "Scraper desenvolvido com o intuito de aprimorar as habilidades com nodeJs,Esse Scraper irá retirar dos sites de editoras de livros informações sobre as obras publicadas pela editora.",
+  "main": "src/scraper.js",
+  "scripts": {
+    "dev":"node src/scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurilimace/scraper-editoras.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurilimace/scraper-editoras/issues"
+  },
+  "homepage": "https://github.com/yurilimace/scraper-editoras#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
